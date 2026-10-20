@@ -1,0 +1,29 @@
+{
+  "name": "distribuidora-la-espanola-backend",
+  "version": "1.0.0",
+  "description": "API REST para la gestión de productos de aseo, limpieza e higiene del hogar de Distribuidora La Española",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [
+    "api",
+    "rest",
+    "express",
+    "sqlite",
+    "productos",
+    "aseo"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
